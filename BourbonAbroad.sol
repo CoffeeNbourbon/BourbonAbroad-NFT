@@ -5,7 +5,11 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
-//Github @https://github.com/CoffeeNbourbon
+
+
+
+// contract: 0x56a142eb3df2378aa61cc58614e77ca1e34c8771
+
 contract BourbonAbroad is ERC721, ERC721Enumerable, ERC721URIStorage {
     using Counters for Counters.Counter;
 
